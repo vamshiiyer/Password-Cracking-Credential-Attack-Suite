@@ -1,5 +1,5 @@
 # 🔐 Password Cracking & Credential Attack Suite  
-*(Ethical Security Assessment Project)*
+*(Ethical Security Assessment – Internship Project)*
 
 **Author:** Ayyavari Vamshi Krishna  
 **License:** MIT  
@@ -10,20 +10,21 @@
 
 ## 📌 Project Overview
 
-The **Password Cracking & Credential Attack Suite** is an academic cybersecurity project developed to demonstrate how weak passwords can be exploited using common attack techniques and how defenders can evaluate and strengthen password security.
+The **Password Cracking & Credential Attack Suite** is a cybersecurity internship project developed to demonstrate **ethical password security assessment techniques** in a controlled and authorized environment.
 
-This project was implemented strictly in a **controlled and ethical laboratory environment** for educational purposes.  
-No real systems, live user accounts, or unauthorized credentials were targeted.
+The project focuses on understanding how weak passwords can be exploited using common attack methodologies and how defenders can evaluate and improve password security through structured analysis and reporting.
+
+⚠️ No real systems, live user accounts, or unauthorized credentials were targeted at any stage of this project.
 
 ---
 
 ## 🎯 Project Objectives
 
-- Understand common password attack techniques  
-- Simulate dictionary-based and brute-force password attacks  
-- Analyze password strength using complexity and entropy  
-- Generate a final security audit report with mitigation recommendations  
-- Demonstrate **Red Team (attack)** and **Blue Team (defense)** perspectives  
+- Simulate common credential attack techniques in an ethical lab environment  
+- Understand dictionary-based and brute-force password attacks  
+- Analyze password strength using complexity and entropy metrics  
+- Generate a security audit report with mitigation recommendations  
+- Apply **Red Team (attack)** and **Blue Team (defense)** security concepts  
 
 ---
 
@@ -44,27 +45,27 @@ No real systems, live user accounts, or unauthorized credentials were targeted.
 ## 🔍 Project Modules
 
 ### 1️⃣ Dictionary Generator
-Generates realistic password wordlists using:
-- Name-based passwords  
+Generates realistic password wordlists using commonly observed attacker patterns such as:
+- Name-based combinations  
 - Year appending  
 - Capitalization  
 - Leet-speak substitutions  
 
-This demonstrates how predictable password patterns weaken security.
+This module demonstrates how predictable password patterns significantly weaken security.
 
 ---
 
 ### 2️⃣ Brute-Force Simulator
 Simulates brute-force password attacks by systematically attempting all possible combinations from a defined character set.
 
-This module demonstrates that:
-- Weak passwords are cracked quickly  
-- Password length significantly impacts attack complexity  
+This module highlights:
+- How weak passwords are compromised quickly  
+- The exponential increase in attack complexity with longer passwords  
 
 ---
 
 ### 3️⃣ Password Strength Analyzer
-Evaluates passwords from a defensive (Blue Team) perspective by analyzing:
+Analyzes passwords from a defensive (Blue Team) perspective by evaluating:
 - Password length  
 - Character diversity (uppercase, lowercase, digits, symbols)  
 - Estimated entropy  
@@ -79,14 +80,17 @@ Generates a final security audit report summarizing:
 - Attack simulation observations  
 - Recommended password security best practices  
 
+This module consolidates findings from all previous modules.
+
 ---
 
-## 🧪 Project Execution Summary
+## 🧪 Internship Execution Summary
 
-The project was fully developed and executed on **Kali Linux** using terminal-based Python scripts.  
-Each module was executed independently, and all outputs were documented for academic verification.
+This project was fully developed and executed as part of a **cybersecurity internship** using **Kali Linux** and terminal-based Python scripts.
 
-📘 **All screenshots, implementation details, and code explanations are included inside the project documentation PDF.**
+Each module was implemented and tested independently, and all execution outputs, code explanations, and results were documented for review and verification.
+
+📘 **All implementation screenshots, code explanations, and results are included within the project documentation PDF provided in this repository.**
 
 ---
 
@@ -96,31 +100,31 @@ Each module was executed independently, and all outputs were documented for acad
 
 The documentation includes:
 - Project architecture and workflow  
-- Detailed code explanations  
+- Detailed explanation of each module  
 - Execution screenshots  
 - Results and analysis  
 - Conclusion and learning outcomes  
 
 ---
 
-## 🎓 Learning Outcomes
+## 🎓 Skills & Learning Outcomes
 
-Through this project, the following concepts were learned:
+Through this internship project, the following skills were developed:
 
-- Practical understanding of password attack methodologies  
-- Importance of password entropy and complexity  
-- Difference between offensive and defensive security approaches  
-- Ethical considerations in cybersecurity testing  
+- Ethical password security assessment  
+- Understanding of credential attack methodologies  
+- Password entropy and complexity analysis  
+- Red Team vs Blue Team security workflows  
 - Secure password policy recommendations  
 
 ---
 
 ## 🚨 Ethical Disclaimer
 
-⚠️ This project is intended **strictly for educational and ethical purposes**.
+⚠️ This project is intended **strictly for ethical and authorized cybersecurity learning purposes**.
 
-Unauthorized password cracking or misuse of these techniques against real systems is illegal and unethical.  
-All demonstrations were conducted in a controlled laboratory environment.
+Any form of unauthorized password cracking or credential misuse is illegal and unethical.  
+All demonstrations were conducted in a controlled and permitted environment as part of an internship.
 
 ---
 
@@ -128,15 +132,11 @@ All demonstrations were conducted in a controlled laboratory environment.
 
 This project is released under the **MIT License**.
 
-You are free to use, modify, and distribute this project for educational purposes, provided proper credit is given to the original author.
+You are free to use, modify, and distribute this project for educational and learning purposes, provided proper credit is given to the original author.
 
 ---
 
 ## 👤 Author
 
 **Ayyavari Vamshi Krishna**  
-Cybersecurity Student | Ethical Security Assessment
-
-
-## 🚨 Disclaimer
-Unauthorized password cracking is illegal. This project is for academic use only.
+Cybersecurity Intern | Ethical Security Assessment
